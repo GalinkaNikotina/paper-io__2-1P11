@@ -8,5 +8,7 @@ namespace paper_io
 {
     class Player
     {
+        public enum Diretion { Up, Right, Down, Left}
+        public Diretion Direction;
     }
 }

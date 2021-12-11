@@ -24,5 +24,13 @@ namespace paper_io
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Room room = new Room();
+            room.ShowDialog();
+            this.Show();
+        }
     }
 }
